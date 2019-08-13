@@ -34,13 +34,13 @@ function App() {
       </div>
       <div className="AppDivMenu">
            <section className="AppMenu">
-                <text>|</text>
-                <text onClick={handleClickPortfolio}>Portfolio</text>
-                <text>|</text>
-                <text onClick={handleClickContacto}>Contacto</text>
-                <text>|</text>
-                <text onClick={handleClickPrecios}>Precios</text>
-                <text>|</text>
+                <p>|</p>
+                <p onClick={handleClickPortfolio}>Portfolio</p>
+                <p>|</p>
+                <p onClick={handleClickContacto}>Contacto</p>
+                <p>|</p>
+                <p onClick={handleClickPrecios}>Precios</p>
+                <p>|</p>
           </section>
       </div>
       </div>

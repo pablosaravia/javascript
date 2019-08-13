@@ -4,20 +4,43 @@ import './ContactoForm.css';
 
 class ContactoForm extends Component {
 
+  constructor() {
+    super();
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    
+    console.log(data);
+  }
+
+  onSubmit = func =>  {
+    console.log(func.target.value)
+    func.preventDefault();
+  }
+
   render (){
     
     return (
        <div className="ContactoForm">
             <fieldset>
               <legend>Contactanos:</legend>
-                <form className="ContactoForm-Form">
+                <form className="ContactoForm-Form" onSubmit={this.handleSubmit} method="post">
                    <label> Nombre: <br />
-                   <input type="text" name="form-name" placeholder="Nombre y Apellido" required onChange={console.log('value')} /> </label>
+                   <input id="mailname"
+                      placeholder="Nombre y Apellido" required /> </label>
+                   <br />
+                   <label> e-Mail: <br />
+                   <input id="mailfrom" 
+                      placeholder="Correo Electronico" required /> </label>
                    <br />
                    <label> Consulta: <br />
-                   <textarea type="text" name="form-text" placeholder="Texto de tu consulta" rows="8" required /> </label>
+                   <textarea id="mailtext"
+                      placeholder="Texto de tu consulta" rows="8" required /> </label>
                    <br />
-                   <input type="submit" value="Submit" />
+                   <button type="submit"> Enviar Consulta </button>
                </form>
            </fieldset>  
       </div>
