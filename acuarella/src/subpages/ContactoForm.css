@@ -1,0 +1,19 @@
+.ContactoForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 10px;
+}
+
+legend {
+    //display: flex;
+}
+
+.ContactoForm * {
+    font-family: Arial, Helvetica, sans-serif;
+    //align: inline;
+    flex-direction: column;
+    width: calc(50px +5vw);
+}

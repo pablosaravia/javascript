@@ -6,9 +6,8 @@ import Contacto from './subpages/Contacto.js';
 import Precios from './subpages/Precios.js';
 import logo from './logo.svg';
 
-
-function renderLink (destino) {
-  ReactDOM.render(<this.destino />, document.getElementById('dataFrame'));
+function handleClickPortfolio () {
+  ReactDOM.render(<Portfolio />, document.getElementById('dataFrame'));
 }
 
 function handleClickContacto () {
@@ -21,25 +20,30 @@ function handleClickPrecios () {
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <section className="App-logo">
-         <img src={logo} alt="Acuarella Fotografia"></img>
-       </section>
-        <hgroup className="App-hgroup">
+      <div className="App">
+      <div>
+      <header className="AppHeader">
+         <section className="AppLogo">
+           <img src={logo} alt="Acuarella Fotografia"></img>
+         </section>
+         <hgroup className="AppHgroup">
            <h1>Aquarella Fotografia</h1>
            <h3>By Noelia Abate</h3>
-        </hgroup>
+         </hgroup>
       </header>
-      <nav className="App-menu">
-          <ul>
-            <li onClick={renderLink(Portfolio)}>Portfolio</li>
-            <li onClick={handleClickContacto}>Contacto</li>
-            <li onClick={handleClickPrecios}>Precios</li>
-          </ul>
-      </nav>
-      <div id="dataFrame"></div>
-    </div>
+      </div>
+      <div className="AppDivMenu">
+           <section className="AppMenu">
+                <text>|</text>
+                <text onClick={handleClickPortfolio}>Portfolio</text>
+                <text>|</text>
+                <text onClick={handleClickContacto}>Contacto</text>
+                <text>|</text>
+                <text onClick={handleClickPrecios}>Precios</text>
+                <text>|</text>
+          </section>
+      </div>
+      </div>
   );
 }
 
