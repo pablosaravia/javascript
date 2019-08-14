@@ -14,12 +14,14 @@ function handleClick () {
 
 function Principal() {
     return (
-      <div className="Principal">
-          <section className="Principal-Section">
-              <Button variant="flat" size="xxl" id="Principal-Boton" onClick={handleClick}>
+      <div className="Main">
+          <div className="Principal">
+             <section className="Principal-Section">
+                <Button variant="flat" size="xxl" id="Principal-Boton" onClick={handleClick}>
                          Ingresar
-              </Button>
-          </section>
+                </Button>
+             </section>
+          </div>
       </div>
     );
   }

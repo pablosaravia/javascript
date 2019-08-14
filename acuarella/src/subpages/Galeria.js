@@ -1,6 +1,6 @@
 import React from 'react';
 import './Galeria.css';
-import './Galeria-images/gal.json'
+//import './Galeria-images/gal.json'
 
 function Galeria() {
   return (
