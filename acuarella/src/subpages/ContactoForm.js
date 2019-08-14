@@ -1,44 +1,60 @@
 import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+
 import './ContactoForm.css';
 
 
 class ContactoForm extends Component {
 
-  constructor() {
-    super();
-    this.handleSubmit = this.handleSubmit.bind(this);
+  state = {
+    UserName: '',
+    SenderFrom: '',
+    BodyText: ''
   }
 
-  handleSubmit(event) {
-    event.preventDefault();
-    const data = new FormData(event.target);
-    
-    console.log(data);
+  onSubmit = param =>  {
+    param.preventDefault();
+    alert("Muchas gracias por comunicarse con nosotros." + "\n" + "Le contestaremos a la brevedad");
+    console.log(this.state)
+    //this.getElementById("contactFormId").reset();
   }
 
-  onSubmit = func =>  {
-    console.log(func.target.value)
-    func.preventDefault();
+  onChange = param =>  {
+    this.setState ({
+          [param.target.name]: param.target.value
+    })
   }
 
   render (){
-    
     return (
        <div className="ContactoForm">
             <fieldset>
               <legend>Contactanos:</legend>
-                <form className="ContactoForm-Form" onSubmit={this.handleSubmit} method="post">
-                   <label> Nombre: <br />
-                   <input id="mailname"
-                      placeholder="Nombre y Apellido" required /> </label>
+                <form className="ContactoForm-Form" id="contactFormId" onSubmit={this.onSubmit}>
+                <label> Nombre: <br /> 
+                   <input
+                      type="text"
+                      name="UserName"
+                      placeholder="Nombre y Apellido"
+                      onChange={this.onChange}
+                      value={this.state.UserName}
+                      required /></label>
                    <br />
                    <label> e-Mail: <br />
-                   <input id="mailfrom" 
-                      placeholder="Correo Electronico" required /> </label>
+                   <input
+                      name="SenderFrom"
+                      placeholder="Correo Electronico"
+                      onChange={this.onChange}
+                      value={this.state.SenderFrom} 
+                      required /> </label>
                    <br />
                    <label> Consulta: <br />
-                   <textarea id="mailtext"
-                      placeholder="Texto de tu consulta" rows="8" required /> </label>
+                   <textarea
+                      name="BodyText"
+                      placeholder="Texto de tu consulta" 
+                      onChange={this.onChange}
+                      value={this.state.BodyText}
+                      rows="8" required /> </label>
                    <br />
                    <button type="submit"> Enviar Consulta </button>
                </form>

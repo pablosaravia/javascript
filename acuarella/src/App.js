@@ -27,7 +27,7 @@ function App() {
            <img src={logo} alt="Acuarella Fotografia"></img>
          </section>
          <hgroup className="AppHgroup">
-           <h1>Aquarella Fotografia</h1>
+           <h1>Acuarella Fotografia</h1>
            <h3>By Noelia Abate</h3>
          </hgroup>
       </header>

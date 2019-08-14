@@ -7,13 +7,13 @@
     margin: 10px;
 }
 
-legend {
-    //display: flex;
+.ContactoForm input, fieldset, textarea {
+    border-radius: 5px;
+    width: calc(50px + 40vw);
+    max-width: 350px;
 }
 
 .ContactoForm * {
     font-family: Arial, Helvetica, sans-serif;
-    //align: inline;
     flex-direction: column;
-    width: calc(50px +5vw);
 }
