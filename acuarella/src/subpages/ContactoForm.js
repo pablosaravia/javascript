@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-
 import './ContactoForm.css';
 
 
@@ -14,7 +12,7 @@ class ContactoForm extends Component {
 
   onSubmit = param =>  {
     param.preventDefault();
-    alert("Muchas gracias por comunicarse con nosotros." + "\n" + "Le contestaremos a la brevedad");
+    alert("Muchas gracias por comunicarse con nosotros. \nLe contestaremos a la brevedad");
     console.log(this.state)
     //this.getElementById("contactFormId").reset();
   }

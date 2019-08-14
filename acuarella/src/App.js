@@ -4,6 +4,7 @@ import './App.css';
 import Portfolio from './subpages/Portfolio.js';
 import Contacto from './subpages/Contacto.js';
 import Precios from './subpages/Precios.js';
+import Galeria from './subpages/Galeria.js'
 import logo from './logo.svg';
 
 function handleClickPortfolio () {
@@ -17,6 +18,11 @@ function handleClickContacto () {
 function handleClickPrecios () {
   ReactDOM.render(<Precios />, document.getElementById('dataFrame'));
 }
+
+function handleClickGaleria () {
+  ReactDOM.render(<Galeria />, document.getElementById('dataFrame'));
+}
+
 
 function App() {
   return (
@@ -41,6 +47,9 @@ function App() {
                 <p>|</p>
                 <p onClick={handleClickPrecios}>Precios</p>
                 <p>|</p>
+                <p onClick={handleClickGaleria}>Galeria</p>
+                <p>|</p>
+
           </section>
       </div>
       </div>
