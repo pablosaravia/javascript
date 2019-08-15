@@ -1,19 +1,65 @@
-.GaleriaHeader {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+div {
+  width: 100%;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+.container {
+  display: flex;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.cell {
+  display: flex;
+  flex: 50%;
+  padding: 10px;
+  border: 1px solid blue;
+  height: 10vh;
+}
+
+
+@media only screen and (max-width: 640px) {
+  
+  #cell2 {
+    flex-direction: row;
+    position: static;
+    height: 100px;
   }
   
-  /* Create four equal columns that sits next to each other */
-  .column {
-    display: flex;
+  #cell4 { display: none; }
+  
+  .container { 
+    flex-direction: row;
     flex-wrap: wrap;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+    display: flex;
   }
+  
+  .cell { 
+    flex: 100%; 
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+  .container {
+    position: relative;
+  }
+  
+  #cell1 { 
+    flex: 0 0 66%; 
+  }
+  
+  #cell2 {
+    flex-direction: column;
+    right: 10px;
+    position: absolute;
+    width: 33%;
+    height: calc(100% - 20px);
+  }
+  
+  #cell3 { 
+    flex:  0 0 66%; 
+  }
+  
+  #cell4 { display: none;}
+}

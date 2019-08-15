@@ -47,7 +47,6 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-
 }
 
 .AppMenu {
@@ -55,6 +54,7 @@
   flex-direction: row;
   margin: auto;
 }
+
 .AppMenu p {
   cursor: pointer;
   margin-left : 5px;

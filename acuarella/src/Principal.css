@@ -13,7 +13,7 @@
     margin: auto;
     margin-top: 10vh;
     width: calc(240px + 30vw);
-    height: calc(240px + 20vw);
+    height: calc(240px + 30vw);
     background-image: url('./principal_back.png');
     background-size: 100% 100%;
     max-width: 550px;
@@ -29,6 +29,9 @@
     background-size: 100% 100%;
     border-radius: 10px;
     cursor: pointer;
+    max-width: 300px;
+    max-height: 200px;
+
 }
 
 

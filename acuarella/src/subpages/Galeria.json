@@ -1,0 +1,22 @@
+[
+{
+    "title": "http://w180jsb1:8080/imagen1.jpg",
+    "altText": "imagen 1"
+},
+{
+    "title": "http://w180jsb1:8080/imagen2.jpg",
+    "altText": "imagen 2"
+},
+{
+    "title": "http://w180jsb1:8080/imagen3.jpg",
+    "altText": "imagen 3"
+},
+{
+    "title": "http://w180jsb1:8080/imagen4.jpg",
+    "altText": "imagen 4"
+},
+{
+    "title": "http://w180jsb1:8080/imagen5.jpg",
+    "altText": "imagen 5"
+}
+]

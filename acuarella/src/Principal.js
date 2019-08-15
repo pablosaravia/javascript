@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './Principal.css';
 import App from './App';
 import Galeria from './subpages/Galeria'
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
   
   function handleClick () {
       ReactDOM.render(<App />, document.getElementById('root'));
