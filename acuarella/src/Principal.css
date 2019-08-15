@@ -1,33 +1,36 @@
-.Main {
-    background-image: url('./backtile.jpg');
-    height: 100%;
-    width: 100%;
-    margin: 0px 0px 0px 0px;
-}
-
 .Principal {
-    display: flex;
+    height: 90vh;
+    width: 96vw;
     margin: auto;
     margin-top: 5vh;
-    width: calc(140px + 25vw);
-    height: calc(80px + 20vw);
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.PrincipalBack {
+    display: flex;
+    margin: auto;
+    margin-top: 10vh;
+    width: calc(240px + 30vw);
+    height: calc(240px + 20vw);
+    background-image: url('./principal_back.png');
+    background-size: 100% 100%;
+    max-width: 550px;
+    max-height: 550px;
+}
+
+.PrincipalLogo {
+    display: flex;
+    margin: auto;
+    width: calc(100px + 20vw);
+    height: calc(60px + 15vw);
     background-image: url('./principal.png');
     background-size: 100% 100%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
-.Principal-Section {
-    align-items: center;
-    margin: auto;
-}
-
-#Principal-Boton {
-    margin-top: calc(150px + 25vw);;
-    display: flex;
-    border-radius: 5px;
-    //width: calc(20px + 14vw);
-    background-blend-mode: color;
-}
 
 
 

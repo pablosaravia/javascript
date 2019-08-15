@@ -27,19 +27,19 @@ function handleClickGaleria () {
 function App() {
   return (
       <div className="App">
-      <div>
-      <header className="AppHeader">
-         <section className="AppLogo">
-           <img src={logo} alt="Acuarella Fotografia"></img>
-         </section>
-         <hgroup className="AppHgroup">
-           <h1>Acuarella Fotografia</h1>
-           <h3>By Noelia Abate</h3>
-         </hgroup>
-      </header>
-      </div>
-      <div className="AppDivMenu">
-           <section className="AppMenu">
+          <div>
+            <header className="AppHeader">
+               <section className="AppLogo">
+                  <img src={logo} alt="Acuarella Fotografia"></img>
+               </section>
+                <hgroup className="AppHgroup">
+                    <h1>Acuarella Fotografia</h1>
+                    <h3>By Noelia Abate</h3>
+                </hgroup>
+            </header>
+          </div>
+          <div className="AppDivMenu">
+              <section className="AppMenu">
                 <p>|</p>
                 <p onClick={handleClickPortfolio}>Portfolio</p>
                 <p>|</p>
@@ -49,9 +49,8 @@ function App() {
                 <p>|</p>
                 <p onClick={handleClickGaleria}>Galeria</p>
                 <p>|</p>
-
-          </section>
-      </div>
+              </section>
+          </div>
       </div>
   );
 }
