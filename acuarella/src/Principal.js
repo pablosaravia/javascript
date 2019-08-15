@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './Principal.css';
 import App from './App';
-import Galeria from './subpages/Galeria'
+import Galeria from './subpages/Galeria.js'
 //import Button from 'react-bootstrap/Button';
   
   function handleClick () {
