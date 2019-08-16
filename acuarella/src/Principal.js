@@ -8,7 +8,6 @@ import Galeria from './subpages/Galeria.js'
   function handleClick () {
       ReactDOM.render(<App />, document.getElementById('root'));
       ReactDOM.render(<Galeria />, document.getElementById('dataFrame'));
-  
   }
   
   

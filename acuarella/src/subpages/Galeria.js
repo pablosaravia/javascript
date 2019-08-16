@@ -2,23 +2,33 @@ import React, {Component} from 'react';
 import './Galeria.css';
 import arrayGal from './Galeria.json'
 
-console.log(arrayGal);
+function Shuffle(o) {
+  for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+  return o;
+};
+
+Shuffle(arrayGal) ;
+
 
 class Galeria extends Component {
-
+    
     state = {
         image: arrayGal
     }
 
     render (){
+      console.log (this.state.image)
         return (
             <div className="container">
-                {this.state.image.map(e => <img key={e.altText} src={e.url} alt={e.altText} />)}  
+                {this.state.image.map(e => <a href={e.url}> <img key={e.altText} src={e.thumb} alt={e.altText}/>
+                </a>)}  
             </div>
           )
       }
 };
 
 export default Galeria;
+
+
 
 

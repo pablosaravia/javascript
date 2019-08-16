@@ -24,16 +24,31 @@
     display: flex;
     margin: auto;
     width: calc(100px + 20vw);
-    height: calc(60px + 15vw);
+    height: calc(100px + 20vw);
     background-image: url('./principal.png');
     background-size: 100% 100%;
     border-radius: 10px;
     cursor: pointer;
-    max-width: 300px;
-    max-height: 200px;
-
+    max-width: 250px;
+    max-height: 250px;
+    transform: rotate(-20deg);
 }
 
+.PrincipalLogo:hover {
+    //animation: logo-spin infinite 20s linear;
+    filter:drop-shadow(0 0 5px white);
+}
+
+//.PrincipalBack:hover { opacity: 0.3; }
 
 
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
 
