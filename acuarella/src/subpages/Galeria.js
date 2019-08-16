@@ -9,7 +9,6 @@ function Shuffle(o) {
 
 Shuffle(arrayGal) ;
 
-
 class Galeria extends Component {
     
     state = {
@@ -17,11 +16,15 @@ class Galeria extends Component {
     }
 
     render (){
-      console.log (this.state.image)
         return (
             <div className="container">
-                {this.state.image.map(e => <a href={e.url}> <img key={e.altText} src={e.thumb} alt={e.altText}/>
-                </a>)}  
+                {
+                  this.state.image.map(
+                                      e => <a key={e.altText} href={e.url}>
+                                                 <img  src={e.thumb} alt={e.altText}/>
+                                           </a>
+                                      )
+                }  
             </div>
           )
       }

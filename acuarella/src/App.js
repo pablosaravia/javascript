@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import './App.css';
 import Portfolio from './subpages/Portfolio.js';
 import Contacto from './subpages/Contacto.js';
-import Precios from './subpages/Precios.js';
+import Productos from './subpages/Productos.js';
 import Galeria from './subpages/Galeria.js'
 import logo from './logo.svg';
+//import Applist from './Applist.json'
 
 function handleClickPortfolio () {
   ReactDOM.render(<Portfolio />, document.getElementById('dataFrame'));
@@ -15,14 +16,13 @@ function handleClickContacto () {
   ReactDOM.render(<Contacto />, document.getElementById('dataFrame'));
 }
 
-function handleClickPrecios () {
-  ReactDOM.render(<Precios />, document.getElementById('dataFrame'));
+function handleClickProductos () {
+  ReactDOM.render(<Productos />, document.getElementById('dataFrame'));
 }
 
 function handleClickGaleria () {
   ReactDOM.render(<Galeria />, document.getElementById('dataFrame'));
 }
-
 
 function App() {
   return (
@@ -45,7 +45,7 @@ function App() {
                 <p>|</p>
                 <p className="menuItem" onClick={handleClickContacto}>Contacto</p>
                 <p>|</p>
-                <p className="menuItem" onClick={handleClickPrecios}>Precios</p>
+                <p className="menuItem" onClick={handleClickProductos}>Productos</p>
                 <p>|</p>
                 <p className="menuItem" onClick={handleClickGaleria}>Galeria</p>
                 <p>|</p>
@@ -56,3 +56,12 @@ function App() {
 }
 
 export default App;
+
+/*{ 
+  Applist.map(
+              e => <p key={e.objId} className="menuItem"
+                      onClick={handleClicLink(e.objName)}> 
+                   {e.objText}
+                  </p>
+              )
+ }*/

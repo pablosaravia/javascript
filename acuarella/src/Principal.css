@@ -1,13 +1,3 @@
-.Principal {
-    height: 90vh;
-    width: 96vw;
-    margin: auto;
-    margin-top: 5vh;
-    display: flex;
-    border-radius: 10px;
-
-}
-
 .PrincipalBack {
     display: flex;
     margin: auto;
@@ -16,21 +6,16 @@
     height: calc(240px + 30vw);
     background-image: url('./principal_back.png');
     background-size: 100% 100%;
-    max-width: 550px;
-    max-height: 550px;
 }
 
 .PrincipalLogo {
     display: flex;
     margin: auto;
-    width: calc(100px + 20vw);
-    height: calc(100px + 20vw);
+    width: calc(100px + 10vw);
+    height: calc(80px + 10vw);
     background-image: url('./principal.png');
     background-size: 100% 100%;
-    border-radius: 10px;
     cursor: pointer;
-    max-width: 250px;
-    max-height: 250px;
     transform: rotate(-20deg);
 }
 

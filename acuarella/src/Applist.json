@@ -1,0 +1,25 @@
+[
+    {
+        "objName" : "{Portfolio}",
+        "objText": "Portfolio",
+        "objId"  : 1
+
+    },
+
+    {
+        "objName" : "{Contacto}",
+        "objText": "Contacto",
+        "objId"  : 2
+
+    },
+    {
+        "objName" : "{Productos}",
+        "objText": "Productos",
+        "objId"  : 3
+    },
+    {
+        "objName" : "{Galeria}",
+        "objText": "Galeria",
+        "objId"  : 4
+    }
+]

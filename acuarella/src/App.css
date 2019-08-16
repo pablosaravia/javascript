@@ -4,8 +4,6 @@
   background-image: url('./banner_header.png');
   background-size: 100% 100%;
   border-radius: 10px;
-  top: 1;
-  z-index: 1;
 }
 
 .AppHeader {
@@ -27,7 +25,7 @@
   display: flex;
   flex-direction: column;
   text-align: right;
-  font-size: calc(10px + 1vh);
+  font-size: calc(10px + 0.5vw);
   font-family: freight-display-pro,serif;
   justify-content: flex-start;
 }
