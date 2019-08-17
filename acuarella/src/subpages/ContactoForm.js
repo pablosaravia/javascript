@@ -13,9 +13,15 @@ class ContactoForm extends Component {
   onSubmit = param =>  {
     param.preventDefault();
     alert("Muchas gracias por comunicarse con nosotros. \nLe contestaremos a la brevedad");
-    console.log(this.state)
     //this.getElementById("contactFormId").reset();
   }
+
+/*
+se puede obtener datos de los input con React.createref
+poniendo un tag ref en cada input
+luego en onSubmit 
+leyendo cada dato con this.tagref.current.value
+*/
 
   onChange = param =>  {
     this.setState ({

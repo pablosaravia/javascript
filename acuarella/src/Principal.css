@@ -1,7 +1,7 @@
 .PrincipalBack {
     display: flex;
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: calc(240px + 30vw);
     height: calc(240px + 30vw);
     background-image: url('./principal_back.png');
@@ -20,20 +20,6 @@
 }
 
 .PrincipalLogo:hover {
-    //animation: logo-spin infinite 20s linear;
     filter:drop-shadow(0 0 5px white);
 }
-
-//.PrincipalBack:hover { opacity: 0.3; }
-
-
-@keyframes logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
 

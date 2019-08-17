@@ -1,0 +1,47 @@
+[
+    {
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen1.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen1.jpg",
+	    "altText": "imagen1"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen2.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen2.jpg",
+	    "altText": "imagen2"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen3.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen3.jpg",
+	    "altText": "imagen3"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen4.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen4.jpg",
+	    "altText": "imagen4"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen5.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen5.jpg",
+	    "altText": "imagen5"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen6.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen6.jpg",
+	    "altText": "imagen6"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen7.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen7.jpg",
+	    "altText": "imagen7"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen8.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen8.jpg",
+	    "altText": "imagen8"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen9.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen9.jpg",
+	    "altText": "imagen9"
+	}
+]

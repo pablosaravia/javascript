@@ -1,0 +1,23 @@
+[
+    {
+        "workId": "1",
+        "workName": "Cumple Oso Panda",
+        "workDate": "8 Mayo 2001",
+        "workThumb" : "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen1.jpg",
+        "workJsonFile" : "[./Portfolio_res/Trabajo1.json]"
+    },
+    {
+        "workId": "2",
+        "workName": "Cumple Maite",
+        "workDate": "7 Agosto 1923",
+        "workThumb" : "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen3.jpg",
+        "workJsonFile" : "./Portfolio_res/Trabajo2.json"
+    },
+    {
+        "workId": "3",
+        "workName": "Casamiento Bruno",
+        "workDate": "23 Mayo 2098",
+        "workThumb" : "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen8.jpg",
+        "workJsonFile" : "./Portfolio_res/Trabajo3.json"
+    }
+]

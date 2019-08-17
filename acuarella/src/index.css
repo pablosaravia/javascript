@@ -13,7 +13,9 @@ body {
   display: none;
 }
 
--moz-
+@-moz-document url-prefix() {
+  html,body{overflow: hidden !important;}
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

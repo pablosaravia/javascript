@@ -1,0 +1,62 @@
+[
+    {
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen14.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen14.jpg",
+	    "altText": "imagen14"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen15.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen15.jpg",
+	    "altText": "imagen15"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen16.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen16.jpg",
+	    "altText": "imagen16"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen17.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen17.jpg",
+	    "altText": "imagen17"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen18.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen18.jpg",
+	    "altText": "imagen18"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen19.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen19.jpg",
+	    "altText": "imagen19"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen20.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen20.jpg",
+	    "altText": "imagen20"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen21.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen21.jpg",
+	    "altText": "imagen21"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen22.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen22.jpg",
+	    "altText": "imagen22"
+	},
+	{
+	    "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen23.jpg",
+	    "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen23.jpg",
+        "altText": "imagen23"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen24.jpg",
+        "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen24.jpg",
+        "altText": "imagen24"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/imagen25.jpg",
+        "thumb": "https://raw.githubusercontent.com/pablosaravia/javascript/master/Galeria-images/thumbs/imagen25.jpg",
+        "altText": "imagen25"
+    }
+]
