@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom';
 import './Principal.css';
 import App from './App';
 import Galeria from './subpages/Galeria.js';
-import arrayGal from './subpages/Galeria.json';
+
+//import arrayGal from './subpages/Galeria.json';
 
 //import Button from 'react-bootstrap/Button';
   
   function handleClick () {
       ReactDOM.render(<App />, document.getElementById('root'));
-      ReactDOM.render(<Galeria datos={arrayGal} />, document.getElementById('dataFrame'));
-  }
+      ReactDOM.render(<Galeria />, document.getElementById('dataFrame'))
+      //.catch(alert('error cargando la galeria'))
+      }
   
   
 function Principal() {

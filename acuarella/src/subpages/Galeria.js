@@ -2,13 +2,15 @@ import React, {Component} from 'react';
 import './Galeria.css';
 //import arrayGal from './Galeria.json'
 
-  
-//Shuffle(arrayGal) ;
+let UriJson = 'https://raw.githubusercontent.com/pablosaravia/javascript/master/acuarella/src/subpages/Galeria.json'
+
+let arrayGal;
+         // .catch(alert('falla al descargar archivo'));
 
 class Galeria extends Component {
-  
+
   state = {
-    image: this.props.datos
+    urijson : UriJson
   }
 
    shuffle (o) {
@@ -16,18 +18,29 @@ class Galeria extends Component {
      return o;
    }
 
-   //array = this.shuffle (this.state.image)  
+   obtenerJson(){
+       fetch(this.state.urijson)
+          .then(function(resp){
+                return resp.json()
+          })
+         .then(function(json){
+           alert(json)
+           console.log(this.state.urijson)
+             return this.shuffle(json)
+            })
+  }
+
+   array = this.obtenerJson();
 
     render (){
- alert (typeof this.state.image)
+ //aalert (typeof this.array)
         return (
             <div className="container">
-                {
-                  this.state.image.map(
-                                      e => <a key={e.altText} href={e.url}>
-                                                 <img  src={e.thumb} alt={e.altText}/>
-                                           </a>
-                                      )
+                {                 
+                  this.array.map( e => <a key={e.altText} href={e.url}>
+                                       <img  src={e.thumb} alt={e.altText}/>
+                                       </a>
+                                )
                 }  
             </div>
           )

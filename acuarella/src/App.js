@@ -6,8 +6,7 @@ import Contacto from './subpages/Contacto.js';
 import Productos from './subpages/Productos.js';
 import Galeria from './subpages/Galeria.js'
 import logo from './logo.svg';
-import arrayGal from './subpages/Galeria.json';
-
+//import arrayGal from './subpages/Galeria.json';
 //import Applist from './Applist.json'
 
 function handleClickPortfolio () {
@@ -23,7 +22,7 @@ function handleClickProductos () {
 }
 
 function handleClickGaleria () {
-  ReactDOM.render(<Galeria datos={arrayGal}/>, document.getElementById('dataFrame'));
+      ReactDOM.render(<Galeria />, document.getElementById('dataFrame'));
 }
 
 function App() {

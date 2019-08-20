@@ -20,11 +20,16 @@ class Portfolio extends Component {
                   {
                       this.state.array.map(
                           e => {
-                              return <div key={e.workId} className="workdiv">
-                                  <img src={e.workThumb} on={<Galeria datos={[e.workJsonFile]} />} alt="texto"></img>
-                                  <p>trabajo {e.workName}</p>
-                                  <p>Fecha: {e.workDate}</p>
-                              </div>;
+                              return <fieldset className="borde">
+                                  <div key={e.workId} className="workdiv">
+                                  <img src={e.workThumb} onClick={<Galeria datos={[e.workJsonFile]} />} alt="texto"></img>
+                                  <div className="workdivP" >
+                                        <p>Nombre: {e.workName}</p>
+                                        <p>Fecha: {e.workDate}</p>
+                                  </div>
+                                  </div>
+                                  </fieldset>;
+                                  
                                } )
                   }
              </div>
