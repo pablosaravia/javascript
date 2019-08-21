@@ -6,24 +6,29 @@ import Contacto from './subpages/Contacto.js';
 import Productos from './subpages/Productos.js';
 import Galeria from './subpages/Galeria.js'
 import logo from './logo.svg';
-//import arrayGal from './subpages/Galeria.json';
 //import Applist from './Applist.json'
 
 function handleClickPortfolio () {
-  ReactDOM.render(<Portfolio />, document.getElementById('dataFrame'));
+  ReactDOM.render(<Portfolio />, document.getElementById('mainData'));
 }
 
 function handleClickContacto () {
-  ReactDOM.render(<Contacto />, document.getElementById('dataFrame'));
+  ReactDOM.render(<Contacto />, document.getElementById('mainData'));
 }
 
 function handleClickProductos () {
-  ReactDOM.render(<Productos />, document.getElementById('dataFrame'));
+  ReactDOM.render(<Productos />, document.getElementById('mainData'));
 }
 
 function handleClickGaleria () {
-      ReactDOM.render(<Galeria />, document.getElementById('dataFrame'));
+      ReactDOM.render(<Galeria />, document.getElementById('mainData'));
 }
+
+function handleClick (props) {
+  console.log('contenido de props ' + props)
+  React.render(<props/>, document.getElementById('mainData'));
+}
+
 
 function App() {
   return (
@@ -42,13 +47,13 @@ function App() {
           <div className="AppDivMenu">
               <section className="AppMenu">
                 <p>|</p>
-                <p className="menuItem" onClick={handleClickPortfolio}>Portfolio</p>
+                <p className="menuItem" onClick={handleClickPortfolio }>Portfolio</p>
                 <p>|</p>
                 <p className="menuItem" onClick={handleClickContacto}>Contacto</p>
                 <p>|</p>
                 <p className="menuItem" onClick={handleClickProductos}>Productos</p>
                 <p>|</p>
-                <p className="menuItem" onClick={handleClickGaleria}>Galeria</p>
+                <p className="menuItem" onClick={handleClick(<Galeria/>)}>Galeria</p>
                 <p>|</p>
               </section>
           </div>
