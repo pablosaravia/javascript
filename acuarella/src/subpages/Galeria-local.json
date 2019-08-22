@@ -1,0 +1,127 @@
+[
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen1.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen1.jpg",
+	    "altText": "imagen1"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen2.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen2.jpg",
+	    "altText": "imagen2"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen3.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen3.jpg",
+	    "altText": "imagen3"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen4.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen4.jpg",
+	    "altText": "imagen4"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen5.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen5.jpg",
+	    "altText": "imagen5"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen6.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen6.jpg",
+	    "altText": "imagen6"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen7.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen7.jpg",
+	    "altText": "imagen7"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen8.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen8.jpg",
+	    "altText": "imagen8"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen9.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen9.jpg",
+	    "altText": "imagen9"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen10.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen10.jpg",
+	    "altText": "imagen10"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen11.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen11.jpg",
+	    "altText": "imagen11"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen12.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen12.jpg",
+	    "altText": "imagen12"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen13.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen13.jpg",
+	    "altText": "imagen13"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen14.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen14.jpg",
+	    "altText": "imagen14"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen15.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen15.jpg",
+	    "altText": "imagen15"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen16.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen16.jpg",
+	    "altText": "imagen16"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen17.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen17.jpg",
+	    "altText": "imagen17"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen18.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen18.jpg",
+	    "altText": "imagen18"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen19.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen19.jpg",
+	    "altText": "imagen19"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen20.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen20.jpg",
+	    "altText": "imagen20"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen21.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen21.jpg",
+	    "altText": "imagen21"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen22.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen22.jpg",
+	    "altText": "imagen22"
+	},
+	{
+	    "url": "http://localhost:8000/Galeria-images/imagen23.jpg",
+	    "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen23.jpg",
+        "altText": "imagen23"
+    },
+    {
+        "url": "http://localhost:8000/Galeria-images/imagen24.jpg",
+        "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen24.jpg",
+        "altText": "imagen24"
+    },
+    {
+        "url": "http://localhost:8000/Galeria-images/imagen25.jpg",
+        "thumb": "http://localhost:8000/Galeria-images/thumbs/imagen25.jpg",
+        "altText": "imagen25"
+    }
+]

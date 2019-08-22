@@ -9,6 +9,7 @@ import Galeria from './subpages/Galeria.js';
 //import Button from 'react-bootstrap/Button';
   
   function handleClick () {
+      ReactDOM.unmountComponentAtNode(document.getElementById('root'));
       ReactDOM.render(<App />, document.getElementById('mainRoot'));
       ReactDOM.render(<Galeria />, document.getElementById('mainData'))
       //.catch(alert('error cargando la galeria'))
@@ -18,14 +19,14 @@ import Galeria from './subpages/Galeria.js';
 function Principal() {
   return (
     <div className="Principal">
-       <div id="mainRoot">
+       <div>
             <div className="PrincipalBack" >
                <div className="PrincipalLogo" onClick={handleClick}>
                </div>
             </div>
         </div>
-        <div id="mainData">
-        </div>
+        <div id="mainRoot"/>
+        <div id="mainData"/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import React , { Component } from 'react';
 import './Portfolio.css';
-import arrayWork from './Portfolio.json'
+import arrayWork from './Portfolio-local.json'
 import Galeria from './Galeria.js';
 import ArchJson from './Portfolio_res/Trabajo3.json'
 
@@ -22,7 +22,9 @@ class Portfolio extends Component {
                           e => {
                               return <fieldset className="borde">
                                   <div key={e.workId} className="workdiv">
-                                  <img src={e.workThumb} onClick={<Galeria datos={[e.workJsonFile]} />} alt="texto"></img>
+                                  <img src={e.workThumb} onClick={() => {
+                                          return Galeria;
+                                      }} alt="texto"></img>
                                   <div className="workdivP" >
                                         <p>Nombre: {e.workName}</p>
                                         <p>Fecha: {e.workDate}</p>

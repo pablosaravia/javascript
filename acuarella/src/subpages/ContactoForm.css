@@ -21,3 +21,8 @@
     font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
 }
+
+button {
+    border-radius: 5%;
+    color: smokewhite;
+}

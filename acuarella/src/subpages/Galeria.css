@@ -25,3 +25,8 @@
 .container img:hover {
   opacity: 0.3;
 }
+
+.errorGaleria h1{
+  color: whitesmoke;
+  text-align: center;
+}

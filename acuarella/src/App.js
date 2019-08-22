@@ -6,6 +6,8 @@ import Contacto from './subpages/Contacto.js';
 import Productos from './subpages/Productos.js';
 import Galeria from './subpages/Galeria.js'
 import logo from './logo.svg';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
 //import Applist from './Applist.json'
 
 function handleClickPortfolio () {
@@ -21,13 +23,9 @@ function handleClickProductos () {
 }
 
 function handleClickGaleria () {
-      ReactDOM.render(<Galeria />, document.getElementById('mainData'));
+  ReactDOM.render(<Galeria />, document.getElementById('mainData'));
 }
 
-function handleClick (props) {
-  console.log('contenido de props ' + props)
-  React.render(<props/>, document.getElementById('mainData'));
-}
 
 
 function App() {
@@ -53,7 +51,7 @@ function App() {
                 <p>|</p>
                 <p className="menuItem" onClick={handleClickProductos}>Productos</p>
                 <p>|</p>
-                <p className="menuItem" onClick={handleClick(<Galeria/>)}>Galeria</p>
+                <p className="menuItem" onClick={handleClickGaleria}>Galeria</p>
                 <p>|</p>
               </section>
           </div>
